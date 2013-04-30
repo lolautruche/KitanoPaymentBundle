@@ -18,11 +18,16 @@
         }
     ],
     "require": {
-        "symfony/framework-bundle": "2.1.*",
-        "doctrine/orm": ">=2.2.3,<2.4-dev"
+        "symfony/framework-bundle": "~2.1",
+        "doctrine/orm": "~2.2,>=2.2.3"
     },
     "autoload": {
         "psr-0": { "Kitano\\PaymentBundle": "" }
     },
-    "target-dir": "Kitano/PaymentBundle"
+    "target-dir": "Kitano/PaymentBundle",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.1.x-dev"
+        }
+    }
 }
